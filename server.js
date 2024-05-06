@@ -83,7 +83,7 @@ ioServer.on("connection", (socket) => {
 
     console.log(dataSend)
     // Menggunakan nama file yang unik untuk menyimpan video
-    const namaFile = `video_${deviceId}.mp4`;
+    const namaFile = `video.mp4`;
 
     simpanVideoDariLink(linkVideo, namaFile)
       .then(() => {
